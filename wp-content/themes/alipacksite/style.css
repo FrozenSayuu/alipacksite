@@ -19,6 +19,7 @@ color:#f76733; <- vibrant orange
 color:#565656; <- ash grey
 */
 
+/* Header */
 .site-header
 {
     display: grid;
@@ -79,5 +80,65 @@ color:#565656; <- ash grey
 #menu-primary a
 {
     text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+.site-footer
+{
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: rgb(233, 214, 189);
+}
+
+.footer-contacts
+{
+    grid-row: 1;
+}
+
+#rights-text
+{
+    padding-top: 10px;
+}
+
+.footer-contacts li, .footer-contacts a
+{
+    margin: 5px 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.footer-menu
+{
+    grid-column: 2;
+}
+
+.footer-secmenu
+{
+    grid-column: 3;
+}
+
+.footer-menu, .footer-secmenu
+{
+    grid-row: 1/ span 2;
+}
+
+.footer-menu li, .footer-menu a, .footer-secmenu li, .footer-secmenu a
+{
+    margin: 5px 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.footer-menu a:hover, .footer-secmenu a:hover
+{
     color: black;
 }
