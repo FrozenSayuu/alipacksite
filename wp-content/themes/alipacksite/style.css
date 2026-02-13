@@ -83,13 +83,28 @@ color:#565656; <- ash grey
     color: black;
 }
 
+/* Products page */
+.products-page
+{
+    margin: 0 auto;
+    padding: 5rem 0 5rem 5rem;
+}
+
+.catalog-box
+{
+    grid-column: 2;
+    padding: 15px;
+    margin: 15px;
+    font-style: italic;
+    background-color: lightgray;
+}
+
 /* Contact page */
 .contact-page
 {
     margin: 0;
 }
 
-/* Contact form */
 .contact-form
 {
     padding: 0 5rem;
