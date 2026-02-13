@@ -13,11 +13,10 @@
         <header class="site-header">
             <div class="header-icon">
                 <a href="<?php echo home_url(); ?>"><img src="<?php site_icon_url(); ?>" alt="Logotype"></a>
+                
+                <div class="header-title">
+                    <img src="/alipacksite/wp-content/uploads/2026/02/alipackiconheader.png" alt="Logotype">
+                </div>
             </div>
-            <div class="header-title">
-                <img src="/alipacksite/wp-content/uploads/2026/02/alipackiconheader.png" alt="Logotype">
-            </div>
-            <div class="header-navigation">
-                <?php wp_nav_menu(['theme_location' => 'primary', 'container' => 'nav']); ?>
-            </div>
+            <?php wp_nav_menu(['theme_location' => 'primary', 'container' => 'nav']); ?>
         </header>
