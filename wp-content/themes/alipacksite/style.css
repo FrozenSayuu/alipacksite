@@ -83,11 +83,16 @@ color:#565656; <- ash grey
     color: black;
 }
 
-/*Contact form*/
+/* Contact page */
 .contact-page
 {
-    margin: 0 auto;
-    padding: 0 5rem 5rem 5rem;
+    margin: 0;
+}
+
+/* Contact form */
+.contact-form
+{
+    padding: 0 5rem;
 }
 
 /* Footer */
