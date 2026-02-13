@@ -88,12 +88,11 @@ color:#565656; <- ash grey
 {
     display: grid;
     grid-template-rows: 2fr;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
-    padding-top: 5rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 5rem;
     background-color: rgb(233, 214, 189);
 }
 

@@ -1,6 +1,7 @@
         <footer>
             <div class="site-footer">
                 <div class="footer-contacts">
+                    <h3>Contacts</h3>
                     <ul>
                         <li>Via G. Puccini 81, Oste Montemurlo, 59103 Prato</li>
                         <li>Phone: <a href="callto:+393894687801">+39 389 468 7801</a></li>
