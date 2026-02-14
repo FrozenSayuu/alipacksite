@@ -14,7 +14,10 @@ The following commented lines below are for the wordpress theme creator to insta
 Color hex code list
 color:#455a9b; <- dark blue
 color:#20b1bb; <- mint
+color:#20b1bb; <- cyan
 color:#4f86b8; <- ocean blue
+color:#455a9b; <- purple
+color:#6986A1; <- in-between ocean blue and ash grey
 color:#f76733; <- vibrant orange
 color:#565656; <- ash grey
 */
@@ -27,7 +30,10 @@ color:#565656; <- ash grey
     grid-template-rows: 1fr;
     grid-column: 1;
     text-align: center;
-    background-color: rgb(233, 214, 189);
+    /*background-color: rgba(69, 90, 155, 1);*/
+    /*background-color: rgba(32, 177, 187, 1);*/
+    background-image: linear-gradient(to right, rgba(69, 90, 155, 1), rgba(32, 177, 187, 1));
+    /*background-image: linear-gradient(to right, rgba(32, 177, 187, 1), rgba(69, 90, 155, 1));*/
 }
 
 .header-icon
@@ -83,6 +89,14 @@ color:#565656; <- ash grey
     color: black;
 }
 
+/* Home page */
+.stockimg-box
+{
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* Products page */
 .products-page
 {
@@ -117,10 +131,9 @@ color:#565656; <- ash grey
     grid-template-rows: 2fr;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
     padding: 5rem;
-    background-color: rgb(233, 214, 189);
+    background-color: rgba(69, 90, 155, 1);
 }
 
 .footer-contacts
